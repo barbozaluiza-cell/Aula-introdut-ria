@@ -20,6 +20,6 @@ const starGame = () => {
     audioStart.play();
 
         if(gameInterval) {
-        gameInterval = retInterval(gameLoop,10);
+        gameInterval = setInterval(gameLoop,10);
     }
 };
